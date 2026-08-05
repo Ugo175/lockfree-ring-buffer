@@ -1,4 +1,4 @@
-# Lock-Free Ring Buffer — User-Space Packet Processor
+# Lock-Free Ring Buffer (User-Space Packet Processor)
 
 A single-producer, single-consumer (SPSC) ring buffer in C++, built as a
 step toward a lock-free version for low-latency, high-throughput packet
@@ -6,8 +6,8 @@ processing in user space.
 
 ## Status
 
-In progress — currently implementing a correct, mutex-based version as a
-baseline before replacing locks with atomics.
+In progress (currently implementing a correct, mutex-based version as a
+baseline before replacing locks with atomics).
 
 - [x] Project scaffolding (CMake, build pipeline)
 - [x] Mutex + condition variable based ring buffer
