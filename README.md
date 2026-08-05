@@ -6,7 +6,7 @@ processing in user space.
 
 ## Status
 
-🚧 In progress — currently implementing a correct, mutex-based version as a
+In progress — currently implementing a correct, mutex-based version as a
 baseline before replacing locks with atomics.
 
 - [x] Project scaffolding (CMake, build pipeline)
