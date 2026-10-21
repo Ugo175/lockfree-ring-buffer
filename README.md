@@ -1,4 +1,4 @@
-# Lock-Free Ring Buffer (User-Space Packet Processor)
+# Lock-Free Ring Buffer (User-Space Packet Processor).
 
 A single-producer, single-consumer (SPSC) ring buffer in C++, built as a
 step toward a lock-free version for low-latency, high-throughput packet
